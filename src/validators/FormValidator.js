@@ -1,5 +1,6 @@
 const INPUT_ERROR_CLASS_NAME = "has-error";
 const MESSAGE_ERROR_CLASS_NAME = "error-message";
+const ERROR_MESSAGE_TEXT = "Pole obowiązkowe";
 
 export default class FormValidator {
   constructor(el) {
@@ -33,7 +34,7 @@ export default class FormValidator {
       errorMessage.classList.add(MESSAGE_ERROR_CLASS_NAME);
       input.classList.add(INPUT_ERROR_CLASS_NAME);
 
-      errorMessage.textContent = "error";
+      errorMessage.textContent = ERROR_MESSAGE_TEXT;
 
       input.after(errorMessage);
     });

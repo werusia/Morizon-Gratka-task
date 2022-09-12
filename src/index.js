@@ -2,6 +2,7 @@ import FormGenerator from "./generators/FormGenerator";
 import FormValidator from "./validators/FormValidator";
 import registrationFormConfig from "./config/registration-form.json";
 import loginFormConfig from "./config/login-form.json";
+import "./styles/style.scss"
 
 const registrationForm = document.querySelector("#form-register");
 const loginForm = document.querySelector("#form-login");
