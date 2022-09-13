@@ -12,11 +12,8 @@
     "url": "git+https://github.com/werusia/Morizon-Gratka-task.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Weronika Majewska",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/werusia/Morizon-Gratka-task/issues"
-  },
   "homepage": "https://github.com/werusia/Morizon-Gratka-task#readme",
   "devDependencies": {
     "css-loader": "^6.7.1",
